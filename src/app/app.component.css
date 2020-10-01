@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	padding: 10px;
+	background-color: gray;
+}
+
+.title {
+	text-align: center;
+}
+
+.templates-section {
+	display: flex;
+	background-color: black;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.template {
+	width: 25vw;
+	height: 300px;
+	padding: 10px;
+	margin: 10px;
+	background-color: red;
+}
+
+.action-section {
+	display: flex;
+	background-color: gray;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.editor {
+	width: 45vw;
+	margin: 10px;
+	height: 400px;
+	background-color: lightgray;
+}
+
+.editor-title {
+	text-align: center;
+	margin: 10px;
+}
+
+.preview {
+	width: 45vw;
+	margin: 10px;
+	height: 400px;
+	background-color: lightgray;
+}
+
+.preview-title {
+	text-align: center;
+	margin: 10px;
+}
+
+.export-button {
+	padding: 20px;
+	text-align: center;
+	background-color: pink;
+}
+
+.jsonSection {
+	padding: 20px;
+	text-align: center;
+}
